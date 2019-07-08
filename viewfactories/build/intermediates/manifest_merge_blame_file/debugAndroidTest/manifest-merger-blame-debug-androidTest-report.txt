@@ -1,0 +1,90 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.publicmethod.viewfactories.test" >
+4
+5    <uses-sdk
+5-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:5:5-74
+6        android:minSdkVersion="26"
+6-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:11:5-15:85
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:11:22-76
+11        android:functionalTest="false"
+11-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:13:22-53
+13        android:label="Tests for com.publicmethod.viewfactories.test"
+13-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:15:22-83
+14        android:targetPackage="com.publicmethod.viewfactories.test" />
+14-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:12:22-81
+15
+16    <uses-permission android:name="android.permission.REORDER_TASKS" />
+16-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:24:5-72
+16-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:24:22-69
+17
+18    <application
+18-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:7:5-9:19
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0-rc01] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\7a0a6b4fd20371471fd187a7604aefc6\core-1.1.0-rc01\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+20-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:7:18-43
+21        android:extractNativeLibs="false"
+22        android:label="@string/app_name"
+22-->[__tested_artifact__::viewfactories] D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-41
+23        android:supportsRtl="true"
+23-->[__tested_artifact__::viewfactories] D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-35
+24        android:theme="@style/AppTheme" >
+24-->[__tested_artifact__::viewfactories] D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-40
+25        <uses-library android:name="android.test.runner" />
+25-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:8:9-60
+25-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger2624950337815786425.xml:8:23-57
+26
+27        <activity android:name="com.publicmethod.viewfactories.TestActivity" />
+27-->[__tested_artifact__::viewfactories] D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-80
+27-->[__tested_artifact__::viewfactories] D:\SourceCode\Android\ProgramaticUIExample\viewfactories\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:19-77
+28        <activity
+28-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:27:9-33:20
+29            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+29-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:28:13-99
+30            android:theme="@android:style/Theme" >
+30-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:29:13-49
+31            <intent-filter>
+31-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:30:13-32:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:31:17-69
+32-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:31:25-66
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:34:9-40:20
+36            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+36-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:35:13-95
+37            android:theme="@android:style/Theme" >
+37-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:36:13-49
+38            <intent-filter>
+38-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:30:13-32:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:31:17-69
+39-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:31:25-66
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:41:9-47:20
+43            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+43-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:42:13-103
+44            android:theme="@android:style/Theme.Dialog" >
+44-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:43:13-56
+45            <intent-filter>
+45-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:30:13-32:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:31:17-69
+46-->[androidx.test:core:1.2.0] C:\Users\dewil\.gradle\caches\transforms-2\files-2.1\45b21b95e646e4cf6ebde23e8273eabd\core-1.2.0\AndroidManifest.xml:31:25-66
+47            </intent-filter>
+48        </activity>
+49    </application>
+50
+51</manifest>

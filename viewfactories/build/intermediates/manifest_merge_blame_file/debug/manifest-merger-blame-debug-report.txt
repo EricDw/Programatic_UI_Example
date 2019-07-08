@@ -1,0 +1,26 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.publicmethod.viewfactories"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\src\main\AndroidManifest.xml:4:5-9:19
+12        android:label="@string/app_name"
+12-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\src\main\AndroidManifest.xml:6:9-41
+13        android:supportsRtl="true"
+13-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\src\main\AndroidManifest.xml:5:9-35
+14        android:theme="@style/AppTheme" >
+14-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\src\main\AndroidManifest.xml:7:9-40
+15        <activity android:name="com.publicmethod.viewfactories.TestActivity" />
+15-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\src\main\AndroidManifest.xml:8:9-50
+15-->D:\SourceCode\Android\ProgramaticUIExample\viewfactories\src\main\AndroidManifest.xml:8:19-47
+16    </application>
+17
+18</manifest>

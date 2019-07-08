@@ -1,0 +1,10 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+id test_constraint_layout
+id test_fab
+id test_text_view
+string app_name
+style AppTheme
