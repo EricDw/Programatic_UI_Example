@@ -4,8 +4,11 @@ import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.publicmethod.programaticuiexample.views.Model
+import com.publicmethod.programaticuiexample.factories.Main
+import com.publicmethod.programaticuiexample.factories.createViewFor
+import com.publicmethod.programaticuiexample.models.Model
 import com.publicmethod.programaticuiexample.views.createMainContentView
+import com.publicmethod.viewfactories.theme.constrainToCenterOfParent
 import kotlin.properties.Delegates
 
 class MainActivity : AppCompatActivity() {
@@ -14,9 +17,37 @@ class MainActivity : AppCompatActivity() {
 
     private var textView: TextView? = null
 
-    private var model: Model by Delegates.observable(Model()) { _, _, newModel ->
-        render(
-             newModel
+    private var model: Model by Delegates.observable(
+        Model()
+    ) { _, _, newModel ->
+        mainRenderer(
+            newModel
+        )
+    }
+
+    private val modelTextViewRenderer: (Model) -> Unit = {
+        rootView.run {
+
+            textView?.let {
+                removeView(it)
+            }
+
+            textView =
+                createViewFor<TextView>(
+                    Main.ModelTextView(it)
+                ).apply {
+                    addView(this)
+                    constrainToCenterOfParent(this)
+                }
+        }
+    }
+
+    private val mainRenderer: (Model) -> Unit =
+        modelTextViewRenderer
+
+    val modelUpdater: () -> Unit = {
+        model = model.copy(
+            clickAmount = model.clickAmount.inc()
         )
     }
 
@@ -29,27 +60,5 @@ class MainActivity : AppCompatActivity() {
             setContentView(rootView)
         }
 
-    fun updateModel() {
-        model = model.copy(
-            clickAmount = model.clickAmount.inc()
-        )
-    }
-
-    private fun render(viewState: Model) =
-        rootView.run {
-
-            textView?.let {
-                removeView(it)
-            }
-
-            textView =
-                createViewFor(Main.ModelTextView(viewState))
-
-            textView?.run {
-                addView(this)
-                constrainToCenter(this)
-            }
-
-        }
 }
 
