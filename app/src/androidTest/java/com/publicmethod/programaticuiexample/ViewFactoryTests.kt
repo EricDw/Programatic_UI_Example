@@ -4,10 +4,9 @@ import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.publicmethod.viewfactories.factories.Main
-import com.publicmethod.viewfactories.factories.createViewFor
+import com.publicmethod.programaticuiexample.factories.Main
+import com.publicmethod.programaticuiexample.factories.createViewFor
 import com.publicmethod.programaticuiexample.models.Model
-import com.publicmethod.viewfactories.TestActivity
 import org.junit.Assert.assertEquals
 import org.junit.Test
 import org.junit.runner.RunWith
